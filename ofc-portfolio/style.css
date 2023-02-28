@@ -1,0 +1,222 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+
+header {
+    display: flex;
+    background-color: #2F58CD;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 100px;
+    z-index: 999;
+}
+
+.logo img {
+    border-radius: 20%;
+}
+
+.nav-items a{
+    color: #fff;
+    font-size: 20px;
+    text-decoration: none;
+    padding: 17px;
+}
+
+.nav-items a:hover {
+    color: #000;
+}
+
+section {
+    padding: 100px 200px;
+}
+
+.main {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    min-height: 100vh;
+    background: url(pexels-danny-meneses-943096.jpg) no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+
+.main h2 {
+    color: #fff;
+    font-size: 1.9em;
+    font-weight: 400;
+}
+
+.main h2 span {
+    display: inline-block;
+    color: #3795BD;
+    margin-top: 10px;
+    font-size: 3em;
+    font-weight: 600;
+}
+
+.main h3 {
+    color: #fff;
+    margin-top: 10px;
+    margin-bottom: 30px;
+    font-size: 1.9em;
+    font-weight: 700;
+    letter-spacing: 1px;
+}
+
+.main-btn {
+    text-decoration: none;
+    color: #fff;
+    background-color: #3a6cf4;
+    font-size: 1.1em;
+    font-weight: 600;
+    display: inline-block;
+    border-radius: 10px;
+    letter-spacing: 1px;
+    padding: 0.9375em 2.1875em;
+    margin-bottom: 40px;
+    transition: 0.4s ease;
+}
+
+.main-btn:hover{
+    background-color: #2451cd;
+    transform: scale(1.1);
+}
+
+.social-icons a{
+    color: #fff;
+    font-size: 1.2em;
+    padding-right: 30px;
+}
+
+.title {
+    display: flex;
+    justify-content: center;
+    color: #3a6cf4;
+    font-size: 2.2em;
+    font-weight: 700;
+    margin-bottom : 30px ;
+}
+
+.content {
+    justify-content: center;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.card {
+    background-color: #fff;
+    width: 21.25em;
+    box-shadow: 0 5px 25px rgba(1, 1, 1 , 17%);
+    border-radius: 10px;
+    padding: 20px;
+    margin: 30px;
+    transition: 0.7s ease;
+}
+
+.card:hover {
+    transform: scale(1.1);
+}
+
+.icon {
+    color: #3a6cf4;
+    font-size: 8em;
+    text-align: center;
+}
+
+.info {
+    text-align: center;
+}
+
+.info h3 {
+    color: #3a6cf4;
+    font-size: 1.2em;
+    font-weight: 500;
+    margin: 12px;
+}
+
+.contact .icon {
+    font-size: 4.5em;
+}
+
+.contact .info h3 {
+    color: #000;
+}
+
+.contact .info p {
+    font-size: 1.5em;
+}
+
+.pppp {
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed ;
+}
+.footer {
+    background-color:#061620 ;
+    color: #fff;
+    padding: 2em;
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer-title {
+    font-size: 1.3em;
+    font-weight: 600;
+}
+
+.footer-title span {
+    color: #3a6cf4;
+}
+
+@media (max-width : 1023px) {
+    header {
+        padding: 12px 20px;
+    }
+    .navigation a {
+        padding-left: 8px;
+    }
+
+    .title {
+        font-size: 1.8em;
+    }
+
+    section {
+        padding: 80px 20px;
+    }
+    .main-content h2 {
+        font-size: 1em;
+    }
+    .main-content h3 {
+        font-size: 1.6em;
+    }
+    .content {
+        flex-direction: column;
+        align-items: center;
+    }
+}
+
+@media(max-width : 641px){
+    body {
+        font-size: 12px;
+    }
+
+    .main-content h2 {
+        font-size: 0.8em;
+    }
+
+    .main-content h3 {
+        font-size: 1.4em;
+    }
+}
+
+@media (max-width: 300px) {
+    body {
+        font-size: 10px;
+    }
+}
